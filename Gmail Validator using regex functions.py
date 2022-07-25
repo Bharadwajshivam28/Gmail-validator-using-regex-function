@@ -1,6 +1,6 @@
 import re
 gmail_condition = "^[a-z]+[a-z 0-9]+[\._]?[@]\w+[.]\w{2,3}$"
-enter_gmail = input("Enter your Gmail : ")
+enter_gmail = input("Enter your Gmail : ") #enter your gmail
 
 if re.search(gmail_condition,enter_gmail):
     print("Right Gmail !")
